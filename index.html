@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+
+    <script type="module" src="script.js"></script>
+
+    <title>Valentine</title>
+</head>
+
+<body class="index-page">
+
+    <main class="container">
+        <img src="img/cat-0.jpg" alt="Picture of a cat for Valentine" class="cat-img">
+        <p class="title">Will you be my Valentine?</p>
+        <div class="buttons">
+            <button class="btn btn--yes" type="button">Yes</button>
+            <button class="btn btn--no" type="button">No</button>
+        </div>
+    
+        <div id="envelope-section" class="hidden">
+            <div class="envelope">
+                <img src="img/envelope-closed.png" id="envelope-img" alt="Closed envelope">
+    
+                
+                <div id="hint-btn" title="Hint: It might be a special date... hihi">
+                    <span>?</span>
+                </div>
+    
+                <input type="password" id="passcode" maxlength="8" placeholder="Enter 8-digit passcode">
+                <button id="open-envelope-btn">Click here to open</button>
+            </div>
+        </div>
+    </main>
+    
+    
+    
+</body>
+</html>
